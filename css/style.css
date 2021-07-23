@@ -1,0 +1,233 @@
+.nav-bar {
+	display: flex;
+	width: 100%;
+	height: 110px;
+	background-color: black;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	margin-left: 42px;
+	margin-top: 64px;
+	width: 81px;
+	height: 79px;
+	background-color:black ;
+	
+}
+
+.navigat {
+	display: inline-block;
+	vertical-align: middle;
+	position: fixed;
+
+}
+.navli {
+	display: inline-block;
+    font-size: 29px;
+    margin-right: 12px;
+    margin-left: 60px;
+    margin-top: 48px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+
+}
+.ulmul {
+	margin-left: 400px;
+}
+.cta {
+	font-family: 'Staatliches', cursive;
+}
+.navlia {
+	display: inline-block;
+    font-size: 29px;
+    margin-right: 12px;
+    margin-left: 160px;
+    margin-top: 48px;
+    color: white;
+	font-family: 'Staatliches', cursive;
+}
+.banner-area{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+}
+.content-area{
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}
+.content{
+	text-align: center;
+
+}
+.content h1{
+	font-size: 60px;
+}
+.mainquo {
+	font-family: 'Staatliches', cursive;
+	margin-bottom: 10px;
+    font-size: 128px;
+    color: white;
+}
+
+.slider-div {
+	position: relative;
+	width: 680px;
+	height: 380px;
+	left: 50%;
+	top: 38%;
+	transform: translate(-50%, 50%);
+	background-image: url(../images/event1.png);
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px white;
+	animation:slider 20s infinite linear;
+}
+
+@keyframes slider{
+	0%{background-image: url(../images/event1.png);}
+	50%{background-image: url(../images/event2.png);}
+	100%{background-image: url(../images/event3.jpg);}
+    50%{background-image: url(../images/event2.png);}
+    0%{background-image: url(../images/event1.png);}
+
+}
+.btn1 {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:white;
+    font-family: 'Staatliches', cursive
+}
+.col_white_amrc {
+ color:#FFF;
+}
+/*Footer*/
+footer {
+	clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 234px;
+	bottom: 0;
+	width: 100%;
+}
+.footer-basic { 
+  height: 300px;
+  padding:30px 0;
+  background-color:white;
+  color:black;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid black;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+/*Footer end*/
+.biglogo {
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	width:200px;
+	height: auto;
+
+}
+.biglogo2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	width:200px;
+	height: auto;
+
+}
+.banner-area2 {
+	width: 100%;
+	height: 30vh;
+	background-image: url(../images/KHBG.png);
+	background-size: cover;
+}
+.abus {	
+   text-align: center;
+   border: 3px solid white;
+   margin: auto;
+   width: 50%;
+   height: 700px;
+   padding: 10px;
+}
+.lockbor {
+	width: 50%;
+}
+.toogle-button {
+	position: absolute;
+	top: 35px;
+	right: 20px;
+	font-size: 25px;
+	color: white;
+	display: none;
+
+}
+@media (max-width: 1271px){
+	.navigat{
+		display: none;
+	}
+	.toogle-button {
+		display: block;
+	}
+	.nav-bar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
