@@ -19,21 +19,21 @@
 .navigat {
 	display: inline-block;
 	vertical-align: middle;
-	position: fixed;
+	position: absolute;
 
 }
 .navli {
 	display: inline-block;
     font-size: 29px;
     margin-right: 12px;
-    margin-left: 60px;
+    margin-left: 90px;
     margin-top: 48px;
     color: white;
     font-family: 'Staatliches', cursive;
 
 }
 .ulmul {
-	margin-left: 400px;
+	margin-left: 550px;
 }
 .cta {
 	font-family: 'Staatliches', cursive;
@@ -42,7 +42,7 @@
 	display: inline-block;
     font-size: 29px;
     margin-right: 12px;
-    margin-left: 160px;
+    margin-left: 260px;
     margin-top: 48px;
     color: white;
 	font-family: 'Staatliches', cursive;
@@ -230,4 +230,11 @@ footer {
 		flex-direction: column;
 		align-items: flex-start;
 	}
+}
+.map {
+	display:inline-block;
+	height:400px;
+	width:700px;
+	margin-top: 200px;
+	margin-left: 600px;
 }
